@@ -104,7 +104,7 @@
                     print_key('𐑽', 'ɪə(r)', 'ear');
                     print_key('𐑾', 'ɪə', 'Ian');
                     print_key('𐑿', 'ju(ː)', 'yew');
-                    echo '<div class="col mb-3 d-grid"><button class="btn btn-danger btn-sm btn-delete">Delete</button></div>';
+                    echo '<div class="col mb-3 d-grid"><button class="btn btn-warning btn-sm shavian-key" data-character=" " data-sound=" ">Space</button></div>';
                     echo '<div class="col mb-3 d-grid"><button class="btn btn-danger btn-sm btn-clear">Clear</button></div>';
                     ?>
                 </div>
@@ -120,12 +120,6 @@
                     sound = $(this).data('sound');
                 $('#shavian').val(shavian + character);
                 $('#ipa').val(ipa + sound);
-            });
-            $('.btn-delete').click(function () {
-                let shavian = $('#shavian').val(),
-                    ipa = $('#ipa').val();
-                $('#shavian').val(shavian.slice(0, -2));
-                $('#ipa').val(ipa.slice(0, -1));
             });
             $('.btn-clear').click(function () {
                 $('#shavian').val('');
