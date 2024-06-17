@@ -29,6 +29,7 @@
                     <h1>Shavian Transcriber</h1>
                     <a class="btn btn-success btn-sm" href="#">Transcriber</a>
                     <a class="btn btn-outline-success btn-sm" href="keyboard.php">Keyboard</a>
+                    <a class="btn btn-outline-success btn-sm" href="ipa.php">Shavian to IPA</a>
                     <hr class="my-3">
                     <form id="transcriber-form">
                         <div class="mb-3">
