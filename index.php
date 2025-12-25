@@ -9,15 +9,12 @@
     <meta name="author" content="Ratinan Lee">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon and Touch Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://lee.ratinan.com/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://lee.ratinan.com/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://lee.ratinan.com/assets/favicon/favicon-16x16.png">
-    <link rel="shortcut icon" href="https://lee.ratinan.com/assets/favicon/favicon.ico">
+    <link href="http://127.0.0.1:8888/2026/public/assets/img/favicon.png" rel="icon">
+    <link href="http://127.0.0.1:8888/2026/public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <meta name="theme-color" content="#ffffff">
     <!-- Styles -->
-    <link rel="stylesheet" media="screen" href="https://lee.ratinan.com/assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
-    <link rel="stylesheet" media="screen" href="https://lee.ratinan.com/assets/css/theme.min.css">
-    <script type="text/javascript" src="https://lee.ratinan.com/assets/vendor/jquery3.6/jquery.min.js"></script>
+    <link href="https://lee.ratinan.com/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <!-- Body -->
 <body>
